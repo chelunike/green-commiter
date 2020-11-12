@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # VARS
-CRON_LINE="9	0	*	*	*	bash"
+CRON_LINE="0	9	*	*	*	bash"
 
 
 # Check crontab
