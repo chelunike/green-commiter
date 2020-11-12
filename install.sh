@@ -15,7 +15,7 @@ fi
 if ! command -v git &> /dev/null
 then
     echo "Git not found. I need this, please :C"
-    echo "And has to be configure with ssh"
+    echo "And has to be configured with ssh"
     exit
 fi
 
