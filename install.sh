@@ -24,7 +24,7 @@ echo "Generating cronfile..."
 echo $CRON_LINE $(pwd)/task.sh > cronfile
 
 echo "Add crontab task"
-#crontab cronfile
+crontab cronfile
 
 echo "ALL DONE"
 echo "EDIT \"task.sh\" and add project path: "
